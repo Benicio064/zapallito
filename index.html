@@ -13,6 +13,7 @@
     </h1>
 
     <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
 
     <!-- 1. Creamos el elemento para el evento -->
 
@@ -21,7 +22,15 @@
         <h2>
             1. Evento Onclick
         </h2>
-        <button onclick="alert('Gracias por la compra')" style="background-color: cadetblue; width: 200px; height: 40px;">
+        <div>
+            <a href="producto.html">
+        <img class="producto" src="https://ae01.alicdn.com/kf/S68d1e67b645243bdbf985e1c5fa61236t.jpg" alt="Figura de coleccion de Shouko Komi">
+        </a>
+        <p>
+            $ 5000
+        </p>
+        </div>
+        <button onclick="comprar()" style="background-color: cadetblue; width: 200px; height: 40px;">
             comprar
         </button>
         <button onclick="enArchivo()" style="background-color: rgb(148, 27, 27); width: 200px; height: 40px;">

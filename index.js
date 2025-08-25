@@ -11,3 +11,8 @@ console.log
 function enArchivo() {
     alert("Adios, cerraste SESION");
 }
+
+function comprar() {
+    alert("Gracias por la compra!!");
+    alert("El costo de la compra es de 5000 pesos")
+}
