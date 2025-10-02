@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(7, 80, 46);
+   /* cambio de tipografia */
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.producto{
+    width: 400px;
+    height: px;
+}
+
+p{
+    font-size: 30px;
+    color: rgb(85, 190, 108);
+
+}

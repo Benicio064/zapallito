@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(29, 213, 219);
+    /* cambio en la tipografia */
+    font-family: cursive;
+}
+
+.dedo{
+     border-top: 6px rgb(20, 117, 69) solid;
+    border-right: 6px rgb(22, 110, 26) dashed;
+    border-bottom: 8px rgba(23, 23, 238, 0.849) solid;
+    border-left: 6px rgb(22, 110, 26) dashed;
+}
